@@ -1,0 +1,302 @@
+[
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Tell me about your understanding of DBMS.",
+        "expected_answer": "DBMS is software used to store, manage, retrieve, and organize data efficiently in databases."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is a DBMS?",
+        "expected_answer": "A DBMS is a Database Management System used to create, manage, and maintain databases efficiently."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the difference between DBMS and RDBMS?",
+        "expected_answer": "DBMS stores data without strict relationships, while RDBMS stores data in tables with relationships using keys."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is a primary key?",
+        "expected_answer": "A primary key uniquely identifies each record in a database table and cannot contain duplicate or null values."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is a foreign key?",
+        "expected_answer": "A foreign key is a field that creates a relationship between two database tables."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "Describe a project where you used databases.",
+        "expected_answer": "I used databases in projects to store user data, manage application records, and handle backend operations efficiently."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are joins in SQL?",
+        "expected_answer": "Joins are SQL operations used to combine rows from multiple tables based on related columns."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "Explain normalization in DBMS.",
+        "expected_answer": "Normalization is the process of organizing database tables to reduce redundancy and improve data integrity."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why do developers use databases in applications?",
+        "expected_answer": "Developers use databases to store, retrieve, update, and manage application data securely and efficiently."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the difference between DELETE and DROP?",
+        "expected_answer": "DELETE removes rows from a table while DROP removes the entire table structure and data permanently."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are SQL constraints?",
+        "expected_answer": "SQL constraints are rules applied to database columns to ensure data accuracy and integrity."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "How did you manage database errors in your project?",
+        "expected_answer": "I managed database errors using validation, exception handling, logging, and query debugging techniques."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the purpose of indexes in databases?",
+        "expected_answer": "Indexes improve database query performance by allowing faster data retrieval."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "Explain ACID properties.",
+        "expected_answer": "ACID properties ensure reliable database transactions through Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "What motivated you to learn databases?",
+        "expected_answer": "I was motivated to learn databases because data management is essential for building scalable and efficient applications."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain different types of joins in SQL.",
+        "expected_answer": "SQL joins combine data from multiple tables. Common joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN depending on how matching rows are retrieved."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is denormalization?",
+        "expected_answer": "Denormalization is the process of combining tables or adding redundant data to improve database read performance and reduce complex joins."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you optimize a slow SQL query?",
+        "expected_answer": "I would optimize a slow SQL query by using indexes, reducing unnecessary joins, analyzing execution plans, and minimizing full table scans."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are transactions in DBMS?",
+        "expected_answer": "Transactions are sequences of database operations executed as a single unit to maintain consistency and integrity in the database."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Describe a database schema you designed.",
+        "expected_answer": "I designed database schemas by creating normalized tables, defining relationships using keys, and ensuring efficient data storage and retrieval."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain clustered and non-clustered indexes.",
+        "expected_answer": "A clustered index determines the physical order of data in a table, while a non-clustered index creates a separate structure for faster searching."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you handle duplicate records in a database?",
+        "expected_answer": "I would handle duplicate records using unique constraints, primary keys, data validation, and SQL queries to identify and remove duplicates."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is database normalization and why is it important?",
+        "expected_answer": "Database normalization organizes tables to reduce redundancy and improve consistency, making databases easier to maintain and more efficient."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "How did you secure database credentials in your project?",
+        "expected_answer": "I secured database credentials using environment variables, secret management systems, and by avoiding hardcoded credentials in source code."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain views in SQL.",
+        "expected_answer": "Views are virtual tables created using SQL queries that simplify complex queries and improve data abstraction and security."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are stored procedures?",
+        "expected_answer": "Stored procedures are reusable SQL programs stored in the database that perform specific operations efficiently."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you design a database for an e-commerce application?",
+        "expected_answer": "I would design separate tables for users, products, orders, payments, and inventory while maintaining proper relationships and indexing for performance."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain triggers in DBMS.",
+        "expected_answer": "Triggers are database procedures that automatically execute in response to events such as insert, update, or delete operations."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you backup and recover a database?",
+        "expected_answer": "I would use scheduled backups, transaction logs, and recovery plans to restore databases safely in case of failures or data loss."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is the difference between WHERE and HAVING?",
+        "expected_answer": "WHERE filters rows before grouping, while HAVING filters grouped data after aggregate functions are applied."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a scalable database system?",
+        "expected_answer": "I would design a scalable database system using indexing, replication, caching, partitioning, load balancing, and distributed database architecture to handle large amounts of data efficiently."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain database sharding.",
+        "expected_answer": "Database sharding is the process of splitting large databases into smaller independent parts called shards to improve scalability and performance."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle millions of database queries per second?",
+        "expected_answer": "I would use load balancing, caching systems like Redis, optimized indexing, query optimization, database replication, and distributed architecture to manage high query loads."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain deadlocks in DBMS.",
+        "expected_answer": "Deadlocks occur when two or more transactions wait for each other’s resources indefinitely, preventing execution from continuing."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a distributed database system?",
+        "expected_answer": "I would design a distributed database system using replication, partitioning, distributed transactions, consistency models, and fault-tolerant architecture."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you debug a database performance bottleneck?",
+        "expected_answer": "I would analyze slow queries, monitor database metrics, optimize indexing, reduce unnecessary joins, and improve query execution plans."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain indexing strategies in large databases.",
+        "expected_answer": "Indexing strategies involve selecting appropriate clustered and non-clustered indexes to improve query performance while balancing storage and update costs."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a highly available database system?",
+        "expected_answer": "I would use replication, automated failover systems, backup servers, load balancing, and monitoring tools to ensure high availability and reliability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you prevent SQL injection attacks?",
+        "expected_answer": "I would prevent SQL injection attacks using parameterized queries, prepared statements, ORM frameworks, and proper input validation techniques."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain CAP theorem.",
+        "expected_answer": "The CAP theorem states that distributed systems can guarantee only two of the following three properties simultaneously: Consistency, Availability, and Partition Tolerance."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a database for a social media platform?",
+        "expected_answer": "I would design separate scalable tables for users, posts, comments, likes, followers, and messages while using indexing, caching, and distributed storage."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you migrate a huge production database safely?",
+        "expected_answer": "I would perform backups, test migration in staging environments, use incremental migration strategies, monitor performance, and maintain rollback mechanisms."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain optimistic vs pessimistic locking.",
+        "expected_answer": "Optimistic locking assumes conflicts are rare and validates changes before committing, while pessimistic locking locks resources immediately to prevent conflicts."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you implement database replication?",
+        "expected_answer": "I would implement replication using master-slave or multi-master replication setups to improve availability, fault tolerance, and read scalability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you monitor database health in production?",
+        "expected_answer": "I would monitor query performance, CPU usage, memory consumption, replication status, and error logs using monitoring tools and alert systems."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain isolation levels in DBMS.",
+        "expected_answer": "Isolation levels define how transactions interact with each other and help prevent issues like dirty reads, non-repeatable reads, and phantom reads."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a fault-tolerant database architecture?",
+        "expected_answer": "I would build a fault-tolerant architecture using replication, backups, distributed systems, automated recovery mechanisms, and failover strategies."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you reduce query latency in large-scale systems?",
+        "expected_answer": "I would reduce query latency using caching, optimized indexes, partitioning, query optimization, and distributed database infrastructure."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain database partitioning.",
+        "expected_answer": "Database partitioning divides large tables into smaller parts to improve query performance, scalability, and data management."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a real-time analytics database system?",
+        "expected_answer": "I would use distributed databases, streaming pipelines, optimized indexing, caching, and scalable storage systems to process real-time analytics efficiently."
+    }
+]

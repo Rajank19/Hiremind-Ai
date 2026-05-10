@@ -1,0 +1,302 @@
+[
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Tell me about yourself as a React developer.",
+        "expected_answer": "I am a React developer with experience in building responsive frontend applications, reusable components, and interactive user interfaces."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why do you enjoy working with React?",
+        "expected_answer": "I enjoy working with React because it allows me to build fast, reusable, and scalable user interfaces efficiently."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is React and why is it popular?",
+        "expected_answer": "React is a JavaScript library used for building user interfaces. It is popular because of its component-based architecture, virtual DOM, and performance."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are components in React?",
+        "expected_answer": "Components are reusable building blocks in React used to create different parts of a user interface."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is JSX in React?",
+        "expected_answer": "JSX is a syntax extension for JavaScript that allows developers to write HTML-like code inside React components."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "Describe a React project you recently built.",
+        "expected_answer": "I recently built a React-based frontend application with reusable components, API integration, and responsive design."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the difference between functional and class components?",
+        "expected_answer": "Functional components are simpler and use hooks, while class components use lifecycle methods and class-based syntax."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are props in React?",
+        "expected_answer": "Props are inputs passed from parent components to child components for sharing data in React."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is state in React?",
+        "expected_answer": "State is a built-in React object used to store and manage dynamic data inside components."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why should we hire you as a React developer?",
+        "expected_answer": "You should hire me because I have strong frontend development skills, React project experience, and problem-solving abilities."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the virtual DOM?",
+        "expected_answer": "The virtual DOM is a lightweight copy of the real DOM used by React to improve rendering performance."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "How did you manage errors in your React project?",
+        "expected_answer": "I managed errors using debugging tools, console logs, try-catch blocks, and proper validation techniques."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are hooks in React?",
+        "expected_answer": "Hooks are special React functions that allow functional components to use state and lifecycle features."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "Explain useState hook.",
+        "expected_answer": "The useState hook is used to create and manage state variables inside functional React components."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "What motivated you to learn React?",
+        "expected_answer": "I was motivated to learn React because of its popularity, reusable component system, and ability to build modern web applications."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain useEffect hook in React.",
+        "expected_answer": "The useEffect hook is used for handling side effects such as API calls, subscriptions, and DOM updates inside React functional components. It runs after component rendering and can also clean up resources when components unmount."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is prop drilling?",
+        "expected_answer": "Prop drilling occurs when data is passed through multiple nested components even when intermediate components do not use the data directly. It can make code harder to maintain in large React applications."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you optimize performance in a React application?",
+        "expected_answer": "I would optimize performance by reducing unnecessary re-renders, using memoization techniques like React.memo and useMemo, implementing lazy loading, and minimizing expensive computations and API calls."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Explain a difficult bug you solved in React.",
+        "expected_answer": "I solved a rendering issue caused by incorrect state updates and asynchronous API calls. I used React Developer Tools and console debugging to identify unnecessary re-renders and fixed the component logic."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is React Context API?",
+        "expected_answer": "The React Context API is used for sharing data globally between components without manually passing props through every level of the component tree."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain controlled vs uncontrolled components.",
+        "expected_answer": "Controlled components manage form data using React state, while uncontrolled components manage form data directly through the DOM using refs."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you handle API calls in React?",
+        "expected_answer": "I would use useEffect for fetching data, manage loading and error states properly, and use async-await or Axios for handling API requests efficiently."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Describe a team project where you used React.",
+        "expected_answer": "I worked on a team-based React project where we developed reusable components, integrated APIs, managed frontend state, and collaborated using Git and GitHub workflows."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is React Router?",
+        "expected_answer": "React Router is a library used for navigation and routing in React applications. It enables developers to create multiple pages without reloading the browser."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you improve code readability in React?",
+        "expected_answer": "I would improve readability by using reusable components, proper naming conventions, modular folder structure, comments where necessary, and maintaining consistent formatting standards."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain lifting state up in React.",
+        "expected_answer": "Lifting state up means moving shared state to a common parent component so multiple child components can access and update the same data."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are custom hooks in React?",
+        "expected_answer": "Custom hooks are reusable JavaScript functions that allow developers to extract and share common React logic across multiple components."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you debug a React rendering issue?",
+        "expected_answer": "I would use React Developer Tools, inspect component state and props, analyze re-render patterns, and identify unnecessary updates causing rendering issues."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain React lifecycle methods.",
+        "expected_answer": "Lifecycle methods are special methods in class components that run during different stages such as mounting, updating, and unmounting of a React component."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "How did you manage state in large React projects?",
+        "expected_answer": "I managed state using React hooks, Context API, and state management libraries like Redux to maintain scalable and organized application state."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a scalable React application?",
+        "expected_answer": "I would design a scalable React application using modular architecture, reusable components, centralized state management, lazy loading, routing, and proper folder structure. I would also implement performance optimization, testing strategies, and CI/CD pipelines for maintainability and scalability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain React reconciliation.",
+        "expected_answer": "React reconciliation is the process where React compares the virtual DOM with the previous version to identify changes and update only the necessary parts of the real DOM efficiently."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you optimize bundle size in React?",
+        "expected_answer": "I would optimize bundle size using code splitting, lazy loading, tree shaking, removing unused dependencies, compressing assets, and using modern build optimization tools."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you structure a large enterprise React app?",
+        "expected_answer": "I would structure a large React app using feature-based folders, reusable components, centralized state management, service layers, routing modules, and scalable architecture principles for maintainability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain server-side rendering in React.",
+        "expected_answer": "Server-side rendering generates React pages on the server before sending them to the browser. It improves SEO, performance, and initial page load speed."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you secure a React application?",
+        "expected_answer": "I would secure a React application using authentication, HTTPS, secure token storage, input validation, protected routes, and preventing XSS vulnerabilities through proper sanitization."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain memoization in React.",
+        "expected_answer": "Memoization is a performance optimization technique used to cache results and avoid unnecessary recalculations or re-renders in React applications."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you implement authentication in React?",
+        "expected_answer": "I would implement authentication using JWT tokens, protected routes, secure storage, login APIs, refresh tokens, and role-based access control."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle performance bottlenecks in production?",
+        "expected_answer": "I would identify bottlenecks using monitoring tools, optimize rendering, reduce unnecessary API calls, use memoization, lazy loading, caching, and improve application performance systematically."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain React Suspense.",
+        "expected_answer": "React Suspense is a feature used for handling asynchronous loading of components and data while displaying fallback UI during loading states."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you implement micro frontends in React?",
+        "expected_answer": "I would split the frontend into independently deployable modules managed by separate teams while sharing common libraries and communication strategies for scalability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you debug production React crashes?",
+        "expected_answer": "I would use error monitoring tools like Sentry, analyze logs, inspect browser errors, reproduce issues in staging environments, and optimize unstable components."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain useMemo and useCallback.",
+        "expected_answer": "useMemo caches computed values while useCallback caches function references to prevent unnecessary recalculations and re-renders in React components."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a reusable component system?",
+        "expected_answer": "I would design reusable components using consistent styling, configurable props, modular architecture, proper documentation, and scalable UI patterns."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you improve SEO in a React application?",
+        "expected_answer": "I would improve SEO using server-side rendering, static site generation, proper metadata, semantic HTML, structured data, and performance optimization techniques."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain React Fiber architecture.",
+        "expected_answer": "React Fiber is the internal rendering engine of React that improves rendering performance and enables features like incremental rendering and task prioritization."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a scalable dashboard in React?",
+        "expected_answer": "I would build a scalable dashboard using reusable widgets, modular architecture, optimized API handling, lazy loading, caching, and efficient state management."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle real-time updates in React?",
+        "expected_answer": "I would handle real-time updates using WebSockets or Socket.IO, efficient state management, optimized rendering, and scalable backend communication."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain hydration in React.",
+        "expected_answer": "Hydration is the process where React attaches event listeners and functionality to server-rendered HTML on the client side."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a fault-tolerant frontend system using React?",
+        "expected_answer": "I would build a fault-tolerant frontend system using error boundaries, monitoring tools, retry mechanisms, fallback UI components, caching strategies, and scalable deployment infrastructure."
+    }
+]

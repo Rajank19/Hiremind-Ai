@@ -1,0 +1,302 @@
+[
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Tell me about yourself as a Machine Learning enthusiast.",
+        "expected_answer": "I am interested in Machine Learning and enjoy building intelligent systems using data analysis, predictive models, and AI technologies."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why are you interested in Machine Learning?",
+        "expected_answer": "I am interested in Machine Learning because it helps solve real-world problems using data-driven intelligent systems and automation."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is Machine Learning?",
+        "expected_answer": "Machine Learning is a branch of artificial intelligence that enables systems to learn patterns from data and make predictions automatically."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the difference between AI and Machine Learning?",
+        "expected_answer": "Artificial Intelligence is a broader field focused on intelligent systems, while Machine Learning is a subset of AI that learns from data."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are supervised and unsupervised learning?",
+        "expected_answer": "Supervised learning uses labeled data for training, while unsupervised learning finds patterns in unlabeled data."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "Describe a Machine Learning project you recently worked on.",
+        "expected_answer": "I recently worked on a Machine Learning project involving data preprocessing, model training, evaluation, and prediction using Python libraries."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is a dataset in Machine Learning?",
+        "expected_answer": "A dataset is a collection of data used to train, validate, and test Machine Learning models."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is overfitting in Machine Learning?",
+        "expected_answer": "Overfitting occurs when a model learns training data too well and performs poorly on unseen data."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is underfitting?",
+        "expected_answer": "Underfitting occurs when a model fails to learn important patterns from the training data."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why should we hire you for an ML-related role?",
+        "expected_answer": "You should hire me because I have practical ML project experience, strong analytical thinking, and a passion for learning AI technologies."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is feature engineering?",
+        "expected_answer": "Feature engineering is the process of selecting, transforming, and creating useful input variables for Machine Learning models."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "What challenges did you face in your ML project?",
+        "expected_answer": "I faced challenges related to data cleaning, model accuracy, feature selection, and optimizing performance during my ML projects."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are training and testing datasets?",
+        "expected_answer": "Training datasets are used to train Machine Learning models, while testing datasets are used to evaluate model performance."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "Explain accuracy in Machine Learning.",
+        "expected_answer": "Accuracy measures how many predictions made by a model are correct compared to the total predictions."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "What motivated you to learn Machine Learning?",
+        "expected_answer": "I was motivated to learn Machine Learning because of its ability to create intelligent systems and solve complex real-world problems."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain bias and variance in Machine Learning.",
+        "expected_answer": "Bias refers to errors caused by overly simple assumptions in a model, while variance refers to errors caused by excessive sensitivity to training data. A good model balances both bias and variance."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is cross-validation?",
+        "expected_answer": "Cross-validation is a technique used to evaluate Machine Learning models by splitting data into multiple training and validation sets to improve reliability."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you handle missing values in a dataset?",
+        "expected_answer": "I would handle missing values by removing incomplete records, filling values using mean or median imputation, or using advanced prediction techniques depending on the dataset."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Explain a difficult ML bug you solved.",
+        "expected_answer": "I solved a model accuracy issue caused by incorrect feature scaling and data leakage by carefully preprocessing the dataset and validating the training pipeline."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is gradient descent?",
+        "expected_answer": "Gradient descent is an optimization algorithm used to minimize model loss by updating parameters iteratively in the direction of the negative gradient."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain confusion matrix.",
+        "expected_answer": "A confusion matrix is a table used to evaluate classification models by comparing actual and predicted values using true positives, false positives, true negatives, and false negatives."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you improve the accuracy of an ML model?",
+        "expected_answer": "I would improve model accuracy through feature engineering, hyperparameter tuning, data preprocessing, selecting better algorithms, and increasing training data quality."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Describe a team project where you used Machine Learning.",
+        "expected_answer": "I worked on a collaborative ML project involving data preprocessing, model training, evaluation, and deployment while coordinating tasks with team members."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is feature scaling?",
+        "expected_answer": "Feature scaling standardizes numerical values in datasets to improve Machine Learning model performance and training stability."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you handle imbalanced datasets?",
+        "expected_answer": "I would handle imbalanced datasets using oversampling, undersampling, class weighting, or advanced techniques like SMOTE."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain precision and recall.",
+        "expected_answer": "Precision measures how many predicted positive results are actually correct, while recall measures how many actual positive cases were correctly identified."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are decision trees?",
+        "expected_answer": "Decision trees are supervised learning algorithms that split data into branches based on conditions to make predictions and classifications."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you select the best ML algorithm for a problem?",
+        "expected_answer": "I would select the best algorithm based on dataset size, problem type, performance metrics, computational complexity, and experimentation results."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain Random Forest.",
+        "expected_answer": "Random Forest is an ensemble learning algorithm that combines multiple decision trees to improve prediction accuracy and reduce overfitting."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "How did you preprocess data in your ML project?",
+        "expected_answer": "I preprocessed data by cleaning missing values, encoding categorical variables, scaling features, and removing irrelevant or duplicate records."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a scalable ML pipeline?",
+        "expected_answer": "I would design a scalable ML pipeline using modular stages for data ingestion, preprocessing, model training, validation, deployment, and monitoring with automation and distributed processing."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain neural networks.",
+        "expected_answer": "Neural networks are deep learning models inspired by the human brain that use interconnected layers of neurons to learn patterns and make predictions from data."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you deploy a Machine Learning model in production?",
+        "expected_answer": "I would deploy ML models using APIs, Docker containers, cloud platforms, monitoring systems, and scalable backend infrastructure for reliable production usage."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a recommendation system?",
+        "expected_answer": "I would build a recommendation system using collaborative filtering, content-based filtering, user behavior analysis, and scalable data processing pipelines."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain backpropagation in deep learning.",
+        "expected_answer": "Backpropagation is an algorithm used to train neural networks by calculating gradients and updating weights to minimize prediction errors."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you monitor ML model performance in production?",
+        "expected_answer": "I would monitor model accuracy, latency, prediction drift, resource usage, and user feedback using monitoring dashboards and automated alerts."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain CNNs in deep learning.",
+        "expected_answer": "Convolutional Neural Networks are deep learning models specialized for image processing tasks using convolutional layers to extract visual features."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a fraud detection system using ML?",
+        "expected_answer": "I would use anomaly detection, real-time data processing, feature engineering, scalable databases, and supervised learning models to identify fraudulent activities."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you reduce inference latency in ML systems?",
+        "expected_answer": "I would reduce latency using optimized models, hardware acceleration, caching, batch processing, quantization, and efficient deployment infrastructure."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain transformers in AI.",
+        "expected_answer": "Transformers are deep learning architectures that use attention mechanisms to process sequential data efficiently and power modern NLP systems like ChatGPT."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a scalable chatbot system?",
+        "expected_answer": "I would use NLP models, scalable APIs, distributed backend systems, conversation management, caching, and monitoring tools for chatbot scalability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle concept drift in ML models?",
+        "expected_answer": "I would monitor data distributions continuously, retrain models regularly, validate performance, and update datasets to handle concept drift effectively."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain reinforcement learning.",
+        "expected_answer": "Reinforcement learning is a Machine Learning technique where agents learn optimal actions through rewards and penalties from interactions with environments."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a real-time prediction system?",
+        "expected_answer": "I would design a real-time prediction system using streaming pipelines, scalable APIs, optimized models, distributed processing, and low-latency infrastructure."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you debug low-performing ML models?",
+        "expected_answer": "I would analyze datasets, check feature quality, evaluate metrics, tune hyperparameters, inspect model bias and variance, and improve preprocessing pipelines."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain RNNs and LSTMs.",
+        "expected_answer": "RNNs process sequential data using feedback loops, while LSTMs improve long-term memory handling and reduce vanishing gradient problems."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a scalable computer vision system?",
+        "expected_answer": "I would use distributed GPU processing, optimized CNN models, cloud storage, scalable APIs, and efficient data pipelines for computer vision systems."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you secure ML models from adversarial attacks?",
+        "expected_answer": "I would use adversarial training, input validation, robust preprocessing, monitoring systems, and secure deployment environments to protect ML models."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain transfer learning.",
+        "expected_answer": "Transfer learning reuses pretrained models on new tasks to improve performance and reduce training time and computational costs."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design an end-to-end MLOps pipeline?",
+        "expected_answer": "I would design an MLOps pipeline with automated data ingestion, preprocessing, model training, deployment, monitoring, CI/CD integration, and retraining workflows."
+    }
+]

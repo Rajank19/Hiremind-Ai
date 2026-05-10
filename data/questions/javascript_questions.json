@@ -1,0 +1,272 @@
+[
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Tell me about yourself as a JavaScript developer.",
+        "expected_answer": "I am a JavaScript developer with experience in frontend development, APIs, and interactive web applications. I enjoy building dynamic and user-friendly interfaces."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why do you enjoy working with JavaScript?",
+        "expected_answer": "I enjoy working with JavaScript because it allows me to build interactive web applications and create dynamic user experiences."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is JavaScript mainly used for?",
+        "expected_answer": "JavaScript is mainly used for building interactive web applications, frontend functionality, backend services, and dynamic user interfaces."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the difference between let, var, and const?",
+        "expected_answer": "Var is function-scoped while let and const are block-scoped. Const variables cannot be reassigned after initialization."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "Describe a JavaScript project you recently worked on.",
+        "expected_answer": "I recently worked on a frontend web application using JavaScript and React to build dynamic and responsive user interfaces."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are functions in JavaScript?",
+        "expected_answer": "Functions are reusable blocks of code used to perform specific tasks and improve code organization."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are arrays in JavaScript?",
+        "expected_answer": "Arrays are ordered collections used to store multiple values in a single variable."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why should we hire you as a JavaScript developer?",
+        "expected_answer": "You should hire me because I have practical frontend experience, strong problem-solving skills, and a passion for learning modern web technologies."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "What challenges did you face while learning JavaScript?",
+        "expected_answer": "I faced challenges understanding asynchronous programming, debugging browser issues, and managing complex frontend logic."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the purpose of loops in JavaScript?",
+        "expected_answer": "Loops are used to execute a block of code repeatedly and automate repetitive operations."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the DOM in JavaScript?",
+        "expected_answer": "The DOM is the Document Object Model that represents HTML elements as objects and allows JavaScript to manipulate webpages dynamically."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "What motivated you to learn JavaScript?",
+        "expected_answer": "I was motivated by JavaScript’s ability to create interactive web applications and modern frontend experiences."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are objects in JavaScript?",
+        "expected_answer": "Objects are collections of key-value pairs used to store structured data and related functionality."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "How did you debug errors in your JavaScript projects?",
+        "expected_answer": "I debugged errors using browser developer tools, console logs, stack traces, and testing different scenarios."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "Explain if-else statements in JavaScript.",
+        "expected_answer": "If-else statements execute different blocks of code depending on whether a condition is true or false."
+    },
+        {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain closures in JavaScript.",
+        "expected_answer": "Closures occur when a function remembers variables from its outer scope even after the outer function has finished executing. They are commonly used for data privacy and maintaining state."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain promises and async-await.",
+        "expected_answer": "Promises handle asynchronous operations in JavaScript while async-await provides cleaner syntax for working with asynchronous code and improves readability."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you optimize JavaScript performance in a web app?",
+        "expected_answer": "I would optimize performance by reducing unnecessary re-renders, minimizing DOM manipulation, lazy loading resources, and optimizing API calls."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Explain a difficult bug you solved using JavaScript.",
+        "expected_answer": "I solved a state management bug caused by asynchronous API updates and incorrect event handling by debugging application flow carefully."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is event bubbling in JavaScript?",
+        "expected_answer": "Event bubbling is a process where events propagate from child elements to parent elements in the DOM hierarchy."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are callbacks in JavaScript?",
+        "expected_answer": "Callbacks are functions passed as arguments to other functions and executed later after a specific task is completed."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you handle API errors in a frontend application?",
+        "expected_answer": "I would use try-catch blocks, proper error handling logic, loading states, and user-friendly error messages to manage API failures."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Describe a team project where you used JavaScript.",
+        "expected_answer": "I worked on a collaborative frontend project where JavaScript was used for interactive UI features, API integration, and dynamic user interactions."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain arrow functions in JavaScript.",
+        "expected_answer": "Arrow functions provide a shorter syntax for writing functions and do not bind their own this keyword."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you improve frontend code readability?",
+        "expected_answer": "I would improve readability using proper naming conventions, modular code structure, reusable components, comments, and consistent formatting."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain localStorage and sessionStorage.",
+        "expected_answer": "LocalStorage stores data permanently in the browser while sessionStorage stores data only for the current browser session."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is destructuring in JavaScript?",
+        "expected_answer": "Destructuring is a JavaScript feature used to extract values from arrays or objects into separate variables."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you debug a slow frontend application?",
+        "expected_answer": "I would use browser developer tools, performance profiling, network analysis, and optimize rendering and API calls to debug slow frontend applications."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain higher-order functions.",
+        "expected_answer": "Higher-order functions are functions that accept other functions as arguments or return functions as output."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "How did you manage state in your frontend projects?",
+        "expected_answer": "I managed state using React state hooks, Context API, and state management libraries to maintain application data efficiently."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a scalable frontend architecture?",
+        "expected_answer": "I would design a scalable frontend architecture using component-based design, modular structure, state management libraries, lazy loading, reusable services, and proper folder organization. I would also implement performance optimization, testing strategies, and CI/CD pipelines for maintainability and scalability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain the JavaScript event loop.",
+        "expected_answer": "The JavaScript event loop manages asynchronous operations by continuously checking the call stack and task queue. It ensures non-blocking execution by processing callbacks only when the call stack becomes empty."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you optimize rendering performance in React?",
+        "expected_answer": "I would optimize rendering performance using memoization, React.memo, lazy loading, code splitting, virtualized lists, and avoiding unnecessary state updates and re-renders."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a real-time notification system?",
+        "expected_answer": "I would use WebSockets or Socket.IO for real-time communication, scalable backend services, event-driven architecture, and efficient state management to handle live notifications."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain memory leaks in JavaScript.",
+        "expected_answer": "Memory leaks occur when unused memory is not released properly. Common causes include unused event listeners, global variables, and uncleared timers."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a secure authentication system in JavaScript applications?",
+        "expected_answer": "I would implement JWT authentication, secure token storage, HTTPS communication, refresh tokens, role-based access control, and proper input validation to build a secure authentication system."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle millions of concurrent users in a web application?",
+        "expected_answer": "I would use load balancing, CDN services, caching systems, scalable backend infrastructure, optimized frontend assets, and database replication to support millions of users efficiently."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain prototypal inheritance in JavaScript.",
+        "expected_answer": "Prototypal inheritance allows objects to inherit properties and methods from other objects using the prototype chain, enabling code reuse and dynamic object behavior."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a microfrontend architecture?",
+        "expected_answer": "I would split the frontend into independent applications managed by separate teams while sharing common components and communication strategies for scalability and maintainability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain debouncing and throttling.",
+        "expected_answer": "Debouncing delays function execution until a pause occurs, while throttling limits how often a function can execute within a time interval to improve performance."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you improve SEO performance in React applications?",
+        "expected_answer": "I would use server-side rendering, static site generation, optimized meta tags, structured data, and fast loading performance to improve SEO in React applications."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain code splitting in JavaScript.",
+        "expected_answer": "Code splitting divides application bundles into smaller chunks that load only when needed, improving application performance and reducing initial load times."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a scalable state management system?",
+        "expected_answer": "I would use centralized state management tools like Redux or Zustand, modular stores, normalized data structures, and efficient update strategies for scalable state management."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you debug production issues in a large frontend application?",
+        "expected_answer": "I would use monitoring tools, browser logs, performance profiling, source maps, and error tracking platforms like Sentry to identify and resolve production issues."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain garbage collection in JavaScript.",
+        "expected_answer": "Garbage collection automatically removes unused memory allocations in JavaScript by identifying objects that are no longer reachable by the program."
+    }
+]

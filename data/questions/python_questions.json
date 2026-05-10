@@ -1,0 +1,304 @@
+[
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Tell me about yourself as a Python developer.",
+        "expected_answer": "I am a Python developer with experience in backend development, automation, and API integration. I enjoy solving real-world problems using Python."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why did you choose Python as your primary programming language?",
+        "expected_answer": "I chose Python because it is simple, readable, and has powerful libraries for web development, AI, and automation."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are Python lists and where have you used them?",
+        "expected_answer": "Python lists are ordered mutable collections used to store multiple values. I used them in projects for storing records and processing data."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the difference between a list and tuple in Python?",
+        "expected_answer": "Lists are mutable while tuples are immutable. Lists can be modified after creation but tuples cannot."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "Describe a Python project you recently worked on.",
+        "expected_answer": "I recently worked on an AI interview bot project using Python and Telegram API for interview practice and feedback generation."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is a Python dictionary?",
+        "expected_answer": "A Python dictionary is a data structure that stores values in key-value pairs and allows fast data retrieval using keys."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "Why should we hire you as a Python developer?",
+        "expected_answer": "You should hire me because I have practical project experience, strong problem-solving skills, and a passion for learning technologies."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are functions in Python?",
+        "expected_answer": "Functions are reusable blocks of code used to perform specific tasks and improve code organization."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "How did you debug errors in your Python project?",
+        "expected_answer": "I debugged errors using print statements, logging, and analyzing stack traces to identify issues."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is the purpose of loops in Python?",
+        "expected_answer": "Loops are used to repeat a block of code multiple times and automate repetitive tasks."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What is exception handling in Python?",
+        "expected_answer": "Exception handling manages runtime errors using try and except blocks to prevent application crashes."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "HR",
+        "question": "What motivated you to learn Python?",
+        "expected_answer": "I was motivated by Python’s simplicity and its applications in automation, AI, and backend development."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Project",
+        "question": "What challenges did you face while building Python projects?",
+        "expected_answer": "I faced challenges related to debugging, dependency management, and integrating external APIs."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "What are Python modules?",
+        "expected_answer": "Python modules are files containing reusable functions and classes that can be imported into other programs."
+    },
+    {
+        "difficulty": "Easy",
+        "type": "Technical",
+        "question": "Explain the use of if-else statements in Python.",
+        "expected_answer": "If-else statements execute different blocks of code based on conditions."
+    },
+
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain decorators in Python.",
+        "expected_answer": "Decorators are functions that modify the behavior of another function without changing its original code. They are commonly used for logging, authentication, and monitoring."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you optimize a slow Python application?",
+        "expected_answer": "I would profile the application to identify bottlenecks, optimize database queries, reduce unnecessary loops, and use caching mechanisms like Redis to improve performance."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "Explain a difficult bug you solved in Python.",
+        "expected_answer": "I solved an API integration bug caused by incorrect JSON parsing and asynchronous requests. I used logging and debugging tools to trace and fix the issue."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are generators in Python?",
+        "expected_answer": "Generators are special functions that yield values one at a time instead of storing everything in memory. They help improve memory efficiency."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you handle large datasets in Python?",
+        "expected_answer": "I would use libraries like Pandas and NumPy, process data in chunks, and use generators to reduce memory usage while handling large datasets."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "Explain multithreading in Python.",
+        "expected_answer": "Multithreading allows multiple threads to run concurrently within a program. It is useful for I/O-bound operations like API requests and file handling."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Project",
+        "question": "How did you structure a large Python project?",
+        "expected_answer": "I structured large projects using modular architecture by separating logic into services, handlers, utilities, and database layers."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What is the difference between deep copy and shallow copy?",
+        "expected_answer": "A shallow copy copies references of nested objects while a deep copy creates completely independent copies of nested objects."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Scenario",
+        "question": "How would you secure environment variables in production?",
+        "expected_answer": "I would use secret managers, secure configuration systems, and avoid exposing credentials directly in source code."
+    },
+    {
+        "difficulty": "Medium",
+        "type": "Technical",
+        "question": "What are virtual environments in Python?",
+        "expected_answer": "Virtual environments create isolated Python environments so project dependencies do not conflict with global packages."
+    },
+
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a scalable Python backend?",
+        "expected_answer": "I would design a scalable Python backend using microservices architecture, load balancers, Redis caching, asynchronous task queues like Celery, and containerization using Docker and Kubernetes. I would also implement monitoring tools such as Prometheus and Grafana, database optimization, and CI/CD pipelines for reliable deployment and scalability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain multiprocessing vs multithreading.",
+        "expected_answer": "Multithreading allows multiple threads to run within the same process and is useful for I/O-bound tasks such as API calls and file handling. Multiprocessing uses separate processes with independent memory spaces and is better for CPU-intensive tasks because it bypasses Python’s Global Interpreter Lock. Multiprocessing provides better parallel execution but consumes more system resources compared to multithreading."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you optimize memory usage in Python?",
+        "expected_answer": "I would optimize memory usage by using generators instead of storing large datasets in memory, avoiding unnecessary object creation, and selecting efficient data structures. I would also use memory profiling tools like memory_profiler, optimize caching strategies, and remove unused variables to reduce memory consumption in large applications."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a real-time chat system in Python?",
+        "expected_answer": "I would use WebSockets for real-time communication between clients and servers. Redis Pub/Sub or RabbitMQ would handle message distribution, while scalable backend services would process requests asynchronously. Databases like PostgreSQL or MongoDB would store chat history, and load balancers would distribute traffic efficiently across multiple servers."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you debug a production server crash?",
+        "expected_answer": "I would first analyze logs and monitoring dashboards to identify the root cause of the crash. Then I would reproduce the issue in a staging environment, inspect resource usage such as CPU and memory, and verify recent deployments or configuration changes. After fixing the issue, I would perform testing and deploy the solution safely with rollback support."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain Python’s GIL.",
+        "expected_answer": "The Global Interpreter Lock is a mechanism in CPython that allows only one thread to execute Python bytecode at a time. It simplifies memory management but limits true parallelism in CPU-bound multithreaded programs. For CPU-intensive applications, multiprocessing is often preferred over multithreading."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you deploy a scalable Python API?",
+        "expected_answer": "I would deploy the API using Docker containers managed by Kubernetes for scalability and orchestration. A load balancer would distribute traffic across multiple instances, Redis would be used for caching, and monitoring tools would track performance. CI/CD pipelines would automate testing and deployments for reliability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle millions of API requests?",
+        "expected_answer": "I would use horizontal scaling with multiple servers, implement caching using Redis, and optimize database queries. Load balancers would distribute requests efficiently, while asynchronous processing and rate limiting would help maintain system stability during high traffic."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain asynchronous programming in Python.",
+        "expected_answer": "Asynchronous programming allows non-blocking execution of tasks using async and await keywords. It improves performance in I/O-heavy applications like APIs, web scraping, and real-time systems by allowing multiple operations to run concurrently without waiting for each task to complete sequentially."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a fault-tolerant backend system?",
+        "expected_answer": "I would implement redundancy, automated failover systems, retry mechanisms, and distributed services to ensure high availability. Monitoring and alerting tools would detect failures quickly, while load balancing and backup systems would minimize downtime and improve reliability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you secure a production Python server?",
+        "expected_answer": "I would secure the server using HTTPS, firewalls, strong authentication, and secure environment variables. Regular security updates, intrusion detection systems, rate limiting, and monitoring tools would also be implemented to prevent attacks and unauthorized access."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain Python context managers.",
+        "expected_answer": "Context managers manage resources efficiently using with statements. They automatically handle setup and cleanup operations such as closing files or database connections, reducing the chances of memory leaks and resource management issues."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a microservices architecture in Python?",
+        "expected_answer": "I would divide the application into independent services based on business functionality. Services would communicate using REST APIs or message queues like RabbitMQ. Docker and Kubernetes would handle deployment, while centralized logging and monitoring would maintain visibility across all services."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you monitor server performance in production?",
+        "expected_answer": "I would use monitoring tools such as Prometheus, Grafana, and ELK Stack to track metrics like CPU usage, memory consumption, request latency, and error rates. Alerts would notify the team about performance issues before they affect users."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain metaclasses in Python.",
+        "expected_answer": "Metaclasses define how classes themselves are created and customized in Python. They are advanced features used in frameworks and libraries to dynamically modify class behavior and implement custom class creation logic."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you build a scalable authentication system?",
+        "expected_answer": "I would implement JWT authentication, OAuth integration, secure password hashing, and distributed session management. Rate limiting, multi-factor authentication, and caching would improve both security and scalability for large user bases."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you prevent SQL injection attacks in Python?",
+        "expected_answer": "I would use parameterized queries or ORM frameworks like SQLAlchemy to avoid direct query concatenation. Input validation, least-privilege database access, and regular security audits would further reduce the risk of SQL injection vulnerabilities."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain async vs sync execution.",
+        "expected_answer": "Synchronous execution processes tasks one after another and waits for each task to complete before continuing. Asynchronous execution allows tasks to run concurrently without blocking the program flow, improving performance for I/O-bound operations."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a distributed task queue system?",
+        "expected_answer": "I would use Celery with Redis or RabbitMQ to distribute background tasks across multiple worker servers. Retry mechanisms, monitoring dashboards, and horizontal scaling would ensure reliability and high throughput in the task processing system."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you reduce downtime in a production deployment?",
+        "expected_answer": "I would use blue-green deployment or rolling deployment strategies along with CI/CD pipelines. Automated testing, rollback mechanisms, and load balancing would minimize downtime and ensure smooth deployments."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a recommendation system in Python?",
+        "expected_answer": "I would use collaborative filtering and machine learning models to analyze user behavior and preferences. The system would include scalable databases, caching mechanisms, and real-time data pipelines to provide personalized recommendations efficiently."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you handle database bottlenecks in a large application?",
+        "expected_answer": "I would optimize queries, implement indexing, use caching systems like Redis, and apply database replication or sharding. Monitoring tools would help identify slow queries and performance bottlenecks in production."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Technical",
+        "question": "Explain REST API rate limiting.",
+        "expected_answer": "Rate limiting restricts the number of API requests a client can make within a given time period. It helps prevent server overload, abuse, and denial-of-service attacks while improving application stability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Architecture",
+        "question": "How would you design a cloud-native Python application?",
+        "expected_answer": "I would build the application using microservices, Docker containers, Kubernetes orchestration, and cloud-managed services. CI/CD pipelines, monitoring, auto-scaling, and fault-tolerant infrastructure would ensure scalability and reliability."
+    },
+    {
+        "difficulty": "Hard",
+        "type": "Scenario",
+        "question": "How would you improve the reliability of a large backend system?",
+        "expected_answer": "I would implement redundancy, health checks, monitoring systems, automated recovery, load balancing, and proper logging. Distributed architecture and backup systems would also improve reliability and reduce downtime risks."
+    }
+]
