@@ -1,4 +1,28 @@
+# 🔐 Secrets
 .env
-hiremind.db
-*.pdf
+
+# 🗄 Database
+*.db
+
+# 🧠 Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Node / React
+node_modules/
+build/
+dist/
+
+# 📄 Files
+*.pdf
+*.log
+
+# 🧪 Testing / temp
+.tmp/
+.cache/
+
+# 💻 OS files
+.DS_Store
+Thumbs.db

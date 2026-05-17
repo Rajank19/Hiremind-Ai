@@ -1,21 +1,34 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from app.database.models import create_tables
-from app.ai.question_generator import get_question
-from app.ai.evaluator import evaluate_answer
 from app.database.queries import (
     save_interview_result,
     get_user_history,
     get_leaderboard
 )
 
+from app.ai.question_generator import get_question
+from app.ai.evaluator import evaluate_answer
+
 app = FastAPI()
 
 
-# 🔥 RUN ON STARTUP (DB + TABLE FIX)
+# 🔥 CREATE TABLE ON START
 @app.on_event("startup")
 def startup():
     print("🚀 Starting App...")
     create_tables()
+
+
+# ✅ CORS (React fix)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 # ✅ HOME
@@ -30,33 +43,26 @@ def get_interview_question(domain: str, difficulty: str):
     return get_question(domain, difficulty)
 
 
+# ✅ SUBMIT ANSWER + SAVE TO DB
 @app.post("/answer")
 def submit_answer(answer: str, expected_answer: str, username: str, domain: str):
 
-    print("🔥🔥 API CALLED 🔥🔥")
+    print("🔥 ANSWER API HIT")
+    print("USERNAME:", username)
+    print("DOMAIN:", domain)
 
     score, feedback = evaluate_answer(answer, expected_answer)
 
-    print("👉 CALLING SAVE FUNCTION NOW")
+    print("👉 SAVING TO DB...")
 
-    # 🔥 DIRECT PRINT INSIDE MAIN
-    from app.database.db import connect_db
-
-    conn = connect_db()
-    cursor = conn.cursor()
-
-    cursor.execute(
-        """
-        INSERT INTO interview_history (username, domain, score, performance)
-        VALUES (?, ?, ?, ?)
-        """,
-        (username, domain, score, feedback)
+    save_interview_result(
+        username=username,
+        domain=domain,
+        score=score,
+        performance=feedback
     )
 
-    conn.commit()
-    conn.close()
-
-    print("✅ DATA SAVED FROM MAIN")
+    print("✅ SAVED SUCCESSFULLY")
 
     return {
         "score": score,
@@ -67,7 +73,6 @@ def submit_answer(answer: str, expected_answer: str, username: str, domain: str)
 # ✅ USER HISTORY
 @app.get("/history")
 def user_history(username: str):
-
     data = get_user_history(username)
 
     formatted = [
@@ -82,7 +87,6 @@ def user_history(username: str):
 # ✅ LEADERBOARD
 @app.get("/leaderboard")
 def leaderboard():
-
     data = get_leaderboard()
 
     formatted = [

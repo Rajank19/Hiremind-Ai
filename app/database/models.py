@@ -1,31 +1,21 @@
 from app.database.db import connect_db
 
-
 def create_tables():
+    conn = connect_db()
+    cursor = conn.cursor()
 
-    connection = connect_db()
-
-    cursor = connection.cursor()
-
-    cursor.execute(
-        """
-        CREATE TABLE IF NOT EXISTS interview_history (
-
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-
-            username TEXT,
-
-            domain TEXT,
-
-            score REAL,
-
-            performance TEXT,
-
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
-        """
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS interview_history (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        username TEXT,
+        domain TEXT,
+        score INTEGER,
+        performance TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
+    """)
 
-    connection.commit()
+    conn.commit()
+    conn.close()
 
-    connection.close()
+    print("✅ TABLE CREATED")
