@@ -54,9 +54,8 @@
 //     </div>
 //   );
 // }
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 export default function Dashboard() {
 
@@ -65,11 +64,10 @@ export default function Dashboard() {
 
   // 🔐 Protect route
   useEffect(() => {
-    const user = localStorage.getItem("username");
-    if (!user) {
+    if (!username) {
       navigate("/login");
     }
-  }, [navigate]);
+  }, [navigate, username]);
 
   // 🔓 Logout
   const handleLogout = () => {
@@ -99,21 +97,31 @@ export default function Dashboard() {
         {/* 🔘 Buttons */}
         <div className="space-y-4">
 
+          {/* 🤖 AI Interview */}
           <Link to="/interview">
             <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition shadow-lg hover:scale-105">
-              Start Interview
+              🤖 AI Interview
             </button>
           </Link>
 
+          {/* 📄 PDF Interview (NEW 🔥) */}
+          <Link to="/pdf-interview">
+            <button className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-lg transition shadow-lg hover:scale-105">
+              📄 PDF Interview
+            </button>
+          </Link>
+
+          {/* 🏆 Leaderboard */}
           <Link to="/leaderboard">
             <button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition shadow-lg hover:scale-105">
-              Leaderboard
+              🏆 Leaderboard
             </button>
           </Link>
 
+          {/* 📊 Analytics */}
           <Link to="/analytics">
             <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg transition shadow-lg hover:scale-105">
-              Analytics
+              📊 Analytics
             </button>
           </Link>
 

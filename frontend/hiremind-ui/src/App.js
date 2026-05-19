@@ -21,7 +21,7 @@
 
 // export default App;
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import InterviewPDF from "./pages/InterviewPDF";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
@@ -41,6 +41,7 @@ function App() {
         <Route path="/interview" element={<Interview />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/analytics" element={<Analytics />} />
+        <Route path="/pdf-interview" element={<InterviewPDF />} />
 
       </Routes>
     </Router>

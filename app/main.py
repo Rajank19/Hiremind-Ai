@@ -1,3 +1,6 @@
+from fastapi import UploadFile, File
+from backend.services.pdf_question_service import extract_questions_from_pdf
+
 from fastapi import FastAPI
 from app.database.models import create_tables
 from app.ai.question_generator import get_question
@@ -62,7 +65,15 @@ def submit_answer(answer: str, expected_answer: str, username: str, domain: str)
         "score": score,
         "feedback": feedback
     }
+@app.post("/pdf-question-bank")
+def pdf_question_bank(file: UploadFile = File(...)):
 
+    questions = extract_questions_from_pdf(file.file)
+
+    return {
+        "total": len(questions),
+        "questions": questions
+    }
 
 # ✅ USER HISTORY
 @app.get("/history")
